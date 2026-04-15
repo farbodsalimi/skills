@@ -7,13 +7,14 @@ This repo stores Claude Code custom slash command skills. The files here are pro
 ```
 skills/
   <skill-name>/
-    <skill-name>.md    # The skill prompt file
+    SKILL.md    # Required: YAML frontmatter + skill instructions
 ```
 
 ## Conventions
 
 - Each skill lives in its own directory under `skills/`
-- The prompt file name should match the directory name
+- The skill prompt file is always named `SKILL.md` and must contain YAML frontmatter with `name` and `description` fields
+- The `name` field in frontmatter must match the directory name (lowercase letters, numbers, and hyphens only)
 - Skills use `$ARGUMENTS` to accept user input from the slash command invocation
 - Skills that manage data (e.g., standup history) reference relative paths for their data directories — these directories are created in the target project, not in this repo
 - Write prompts in plain markdown with clear step-by-step instructions
