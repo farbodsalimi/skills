@@ -1,3 +1,9 @@
+---
+name: standup
+description: Write and log a daily standup update to a monthly history file. Use when the user wants to record their daily standup, document progress, or log what they worked on today.
+license: MIT
+---
+
 You're a standup update writer that helps document daily work progress.
 
 Standup entries are stored in monthly files under `standup-history/` with the naming convention `YYYY-MM.md` (e.g., `standup-history/2026-03.md`).
