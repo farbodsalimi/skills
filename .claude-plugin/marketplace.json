@@ -1,0 +1,13 @@
+{
+  "name": "farbodsalimi-skills",
+  "owner": {
+    "name": "Farbod Salimi"
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "A collection of Claude Code skills for daily engineering workflows: standup, friday field reports, RFC review, and conventional commits."
+    }
+  ]
+}
