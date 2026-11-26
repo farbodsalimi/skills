@@ -1,0 +1,10 @@
+{
+  "name": "skills",
+  "description": "A collection of Claude Code skills for daily engineering workflows: standup, friday field reports, RFC review, and conventional commits.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Farbod Salimi"
+  },
+  "homepage": "https://github.com/farbodsalimi/skills",
+  "license": "MIT"
+}
