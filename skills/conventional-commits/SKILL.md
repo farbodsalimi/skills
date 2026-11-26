@@ -33,7 +33,7 @@ Run these in parallel:
 
 ### 2. Determine the type
 
-Use the type that matches the primary intent of the change. Prefer the type set a repo already uses (check `git log` and any `.sv4git.yml`, `commitlint`, or `.commitlintrc` config in the repo).
+Use the type that matches the primary intent of the change. Prefer the type set a repo already uses (check `git log` and any commit-lint config in the repo).
 
 Standard types:
 - `feat` — a new feature (bumps minor)
